@@ -6,7 +6,7 @@ import { Button, Space, Modal } from 'antd';
 
 
 
-const buttonTime = ({label, TimerSeconds}) => {   
+const ButtonTime = ({label, TimerSeconds}) => {   
     
     const {          
       doResetGame,     
@@ -104,4 +104,4 @@ const buttonTime = ({label, TimerSeconds}) => {
   )
 }
 
-export default buttonTime
+export default ButtonTime

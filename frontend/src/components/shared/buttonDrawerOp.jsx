@@ -5,7 +5,7 @@ import { UseTasks } from "../../../utils/ProviderContext";
 import { AppstoreOutlined } from "@ant-design/icons";
 import { Button, Tooltip } from "antd";
 
-const buttonDrawerOp = ({ showDrawer, tooltip }) => {
+const ButtonDrawerOp = ({ showDrawer, tooltip }) => {
   const { doChangeEnd } = UseTasks();
   const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {
@@ -35,4 +35,4 @@ const buttonDrawerOp = ({ showDrawer, tooltip }) => {
   );
 };
 
-export default buttonDrawerOp;
+export default ButtonDrawerOp;
