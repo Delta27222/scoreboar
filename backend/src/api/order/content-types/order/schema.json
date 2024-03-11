@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markettype": {
+      "type": "enumeration",
+      "enum": [
+        "Acciones"
+      ]
+    },
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Received",
+        "pending",
+        "executed",
+        "cancel"
+      ],
+      "default": "Received"
+      
+    },
+    "CurrencyCode": {
+      "type": "enumeration",
+      "enum": [
+        "VEF"
+      ]
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "ordertype": {
+      "type": "enumeration",
+      "enum": [
+        "Limite",
+        "mercado"
+      ]
+    },
+    "operationtype": {
+      "type": "enumeration",
+      "enum": [
+        "compra",
+        "venta"
+      ]
+    },
+    "cod_simb": {
+      "type": "string"
+    },
+    "empresa": {
+      "type": "string"
+    },
+    "agent": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+    
+  }
+}

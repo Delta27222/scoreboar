@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_scoreboard_game_results",
+  "info": {
+    "displayName": "GameResults",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ResultPlayerA": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "ResultPlayerB": {
+      "type": "biginteger",
+      "default": "0"
+    }
+  }
+}

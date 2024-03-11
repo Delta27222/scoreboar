@@ -1,0 +1,452 @@
+	
+	
+	#g-01-MARCADOR-DE-PUNTAJES_mod-box ,
+	#g-01-MARCADOR-DE-PUNTAJES_mod-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-01-MARCADOR-DE-PUNTAJES_mod-box p {
+		margin:0;
+	}
+	#g-01-MARCADOR-DE-PUNTAJES_mod-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-01-MARCADOR-DE-PUNTAJES_mod-box .g-aiImg {
+		position:relative;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-01-MARCADOR-DE-PUNTAJES_mod-box .g-aiSymbol {
+		position: relative;
+		box-sizing: border-box;
+	}
+	#g-01-MARCADOR-DE-PUNTAJES_mod-box .g-aiPointText p { white-space: nowrap; }
+	#g-01-MARCADOR-DE-PUNTAJES_mod-Mesa_de_trabajo_1 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-01-MARCADOR-DE-PUNTAJES_mod-Mesa_de_trabajo_1 p {
+		font-family:arial,helvetica,sans-serif;
+		font-weight:bold;
+		line-height:52px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:44px;
+		text-align:left;
+		/* color:rgb(255,255,255); */
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	
+
+/**************************************************  */
+/**************************************************  */
+.st0
+{
+  background : #023040;
+  background : rgba(2, 48, 64, 1);
+  border-style : Solid;
+  border-color : #E7FF00;
+  border-color : rgba(231, 255, 0, 1);
+  border-width : 40px;
+  position : relative ;
+  left : 1369px;
+  top : 600px;
+  width : 1251px; 
+  height : 256px;
+
+  /* left: 16.8129%;
+  top: 32.313%;
+  width : auto;
+  height : auto; */
+ 
+}
+.st5
+{
+  background : #023040;
+  background : rgba(2, 48, 64, 1);
+  border-style : Solid;
+  border-color : #E7FF00;
+  border-color : rgba(231, 255, 0, 1);
+  border-width : 40px;
+  position : relative ;
+  left : 1369px;
+  top : 840px;
+  width : 1251px; 
+  height : 256px;
+
+  /* left: 16.8129%;
+  top: 47.103%;
+  width : auto;
+  height : auto; */
+}
+
+/*  */
+
+.st1
+{
+	background : #023040;
+	background : rgba(2, 48, 64, 1);
+	border-style : Solid;
+	border-color : #E7FF00;
+	border-color : rgba(231, 255, 0, 1);
+	border-width : 40px;
+	position : relative ;
+	left : 2538px;
+	top : 600px;
+	width : 329px;
+	height : 256px;	
+
+	/* left: 41.8129%;
+	top: 32.313%;
+    width :  329px;
+    height :  256px; */
+
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+	
+  }
+
+  .st6
+{
+  background : #023040;
+  background : rgba(2, 48, 64, 1);
+  border-style : Solid;
+  border-color : #E7FF00;
+  border-color : rgba(231, 255, 0, 1);
+  border-width : 40px;
+  position : relative ;
+  left : 2449px;
+  top : 840px;
+  width : 329px;
+  height : 256px;
+
+  -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+  /*  */
+
+.st2
+{
+	background : #023040;
+	background : rgba(2, 48, 64, 1);
+	border-style : Solid;
+	border-color : #E7FF00;
+	border-color : rgba(231, 255, 0, 1);
+	border-width : 40px;
+	position : relative ;
+	left : 2784px;
+	top : 600px;
+	width : 329px;
+	height : 256px;
+
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+.st7
+{
+	background : #023040;
+	background : rgba(2, 48, 64, 1);
+	border-style : Solid;
+	border-color : #E7FF00;
+	border-color : rgba(231, 255, 0, 1);
+	border-width : 40px;
+	position : relative ;
+	left : 2695px;
+	top : 840px;
+	width : 329px;
+	height : 256px;
+
+  -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+
+/*  */
+.st3
+{
+  background : #023040;
+  background : rgba(2, 48, 64, 1);
+  border-style : Solid;
+  border-color : #E7FF00;
+  border-color : rgba(231, 255, 0, 1);
+  border-width : 40px;
+  position : relative ;
+  left : 3031px;
+  top : 600px;
+  width : 329px;
+  height : 256px;
+
+  -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+.st8
+{
+	background : #023040;
+	background : rgba(2, 48, 64, 1);
+	border-style : Solid;
+	border-color : #E7FF00;
+	border-color : rgba(231, 255, 0, 1);
+	border-width : 40px;
+	position : relative ;
+	left : 2942px;
+	top : 840px;
+	width : 329px;
+	height : 256px;
+
+  -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+/*  */
+
+.st4
+{
+	background : #023040;
+	background : rgba(2, 48, 64, 1);
+	border-style : Solid;
+	border-color : #E7FF00;
+	border-color : rgba(231, 255, 0, 1);
+	border-width : 40px;
+	position : relative ;
+	left : 3277px;
+	top : 600px;
+	width : 457px;
+	height : 256px;
+
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+.st9
+{
+	background : #023040;
+	background : rgba(2, 48, 64, 1);
+	border-style : Solid;
+	border-color : #E7FF00;
+	border-color : rgba(231, 255, 0, 1);
+	border-width : 40px;
+	position : relative ;
+	left : 3188px;
+	top : 840px;
+	width : 457px;
+	height : 256px;  
+
+  -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+
+/*  */
+
+.set1
+{
+  font-family : Arial;
+  font-weight : bold;
+  font-size : 43px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  
+}
+
+.Players
+{
+  font-family : HeadingNow 66BoldItalic;
+  font-weight : bold;
+  font-style : italic;
+  font-size : 75px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+
+/*  */
+
+.Time0
+{
+  background : #023040;
+  background : rgba(2, 48, 64, 1);
+  border-style : Solid;
+  border-color : #E7FF00;
+  border-color : rgba(231, 255, 0, 1);
+  border-width : 20px;
+  position : absolute ;
+  left : 1657px;
+  top : 1174px;
+  /* width : 836px;
+  height : 158px; */
+  width : 535px;
+  height : 158px;
+
+  -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+.Timefont
+{
+  font-family : Arial;
+  font-weight : bold;
+  font-size : 40px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+
+
+.Time1
+{
+  background : #023040;
+  background : rgba(2, 48, 64, 1);
+  border-style : Solid;
+  border-color : #E7FF00;
+  border-color : rgba(231, 255, 0, 1);
+  border-width : 20px;
+  position : absolute ;
+  left : 2875px;
+  top : 1174px;
+  width : 535px;
+  height : 158px;
+
+  -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+/*  */
+
+.Anuncio
+{
+  background : #E7FF00;
+  background : rgba(231, 255, 0, 1);
+  position : absolute ;
+  left : 150px;
+  top : 150px;
+  width : 1000px;
+  height : 1720px;
+}
+
+.Recurso13
+{
+  	
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1660px;
+	top : 170px;
+	width : 1665px;
+	height : 286px;
+}
+
+.Recurso14
+{
+ 
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 1873px;
+  top : 1473px;
+  width : 1316px;
+  height : 146px;
+}
+
+
+
+
+
+
+.st16
+{
+  /* background : #023040;
+  background : rgba(2, 48, 64, 1);
+  border-style : Solid;
+  border-color : #ff5500;
+  border-color : rgb(255, 119, 0);
+  border-width : 40px; */
+  position : relative ;
+  left : 2349px;
+  top : 890px;
+  width : 329px;
+  height : 256px;
+
+  /* -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg); */
+}
+
+
+
+
+.st17
+{
+	/* background : #023040;
+	background : rgba(2, 48, 64, 1);
+	border-style : Solid;
+	border-color : #00ff77;
+	border-color : rgb(0, 255, 94);
+	border-width : 40px; */
+	position : relative ;
+	left : 998px;
+	top : 0px;
+	width : 329px;
+	height : 256px;	
+
+	/* left: 41.8129%;
+	top: 32.313%;
+    width :  329px;
+    height :  256px; */
+
+	/* -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+	 */
+  }
+
+
+
+  .Cancha
+{
+ 
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 1873px;
+  top : 1973px;
+  width : 1316px;
+  height : 146px;
+}

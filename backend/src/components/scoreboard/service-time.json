@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_scoreboard_service_times",
+  "info": {
+    "displayName": "ServiceTime",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TimerSeconds": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "status": {
+      "type": "boolean",
+      "default": false
+    },
+    "TimeIsActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "TimeIsPaused": {
+      "type": "boolean",
+      "default": true
+    },
+    "TimeIsTime": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

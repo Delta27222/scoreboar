@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scoreboards",
+  "info": {
+    "singularName": "scoreboard",
+    "pluralName": "scoreboards",
+    "displayName": "Scoreboard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SET1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "scoreboard.game-results"
+    },
+    "SET2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "scoreboard.game-results"
+    },
+    "SET3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "scoreboard.game-results"
+    },
+    "ServiceStart": {
+      "type": "boolean",
+      "default": false
+    },
+    "ServiceTime": {
+      "type": "component",
+      "repeatable": false,
+      "component": "scoreboard.service-time"
+    },
+    "Players": {
+      "type": "component",
+      "repeatable": false,
+      "component": "scoreboard.players"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    },
+    "Cancha": {
+      "type": "enumeration",
+      "enum": [
+        "Cancha1",
+        "Cancha2",
+        "Cancha3",
+        "Cancha4",
+        "Cancha5"
+      ]
+    },
+    "Controller": {
+      "type": "enumeration",
+      "enum": [
+        "Controller1",
+        "Controller2",
+        "Controller3",
+        "Controller4"
+      ]
+    },
+    "scorea": {
+      "type": "biginteger"
+    },
+    "scoreb": {
+      "type": "biginteger"
+    }
+  }
+}

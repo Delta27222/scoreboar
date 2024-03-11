@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_scoreboard_players",
+  "info": {
+    "displayName": "Players",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "PlayerA": {
+      "type": "string"
+    },
+    "PlayerB": {
+      "type": "string"
+    },
+    "PlayerC": {
+      "type": "string"
+    },
+    "PlayerD": {
+      "type": "string"
+    }
+  }
+}
