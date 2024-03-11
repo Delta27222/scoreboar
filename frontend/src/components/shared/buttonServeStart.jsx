@@ -8,7 +8,7 @@ const ButtonServeStart = ({tooltip}) => {
   const { doResetGame, setServeStart, ServeStart, UpdateScoreboard } =
     UseTasks();
 
-  const [loadings, setLoadings] = UseState([]);
+  const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {
     setLoadings((prevLoadings) => {
       const newLoadings = [...prevLoadings];
