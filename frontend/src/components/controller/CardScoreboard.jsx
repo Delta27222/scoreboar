@@ -1,11 +1,11 @@
 'use client'
 import { useState } from "react";
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import {Drawer, Flex, Space, Row, Col, Divider } from 'antd';
 
 import ButtonDrawerOp from '../shared/buttonDrawerOp'
 import ButtonRecharge from "../shared/buttonRecharge";
-import ButtonServeStart from "../shared/buttonServeStart";
+import ButtonServeStart from "../shared/ButtonServeStart";
 import ButtonTime from "../shared/buttonTime";
 import ButtonTimeGame from "../shared/ButtonTimeGame";
 
@@ -14,7 +14,7 @@ import {SettingsDrawer} from '../shared/SettingsDrawer'
 
 
 export function CardScoreboard() {
-  const {SetsGame, handleSave, open, setOpen, onClose } = useTasks();
+  const {SetsGame, handleSave, open, setOpen, onClose } = UseTasks();
   const baseStyle = {
     width: '25%',
     height: 40,

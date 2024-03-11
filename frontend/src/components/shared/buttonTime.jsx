@@ -1,6 +1,6 @@
 'use client'
 import {useEffect, useState} from "react"; 
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import { SaveOutlined, FieldTimeOutlined  } from '@ant-design/icons';
 import { Button, Space, Modal } from 'antd';
 
@@ -11,7 +11,7 @@ const buttonTime = ({label, TimerSeconds}) => {
     const {          
       doResetGame,     
       UpdateScoreboard,
-       } = useTasks(); 
+       } = UseTasks(); 
 
        
         

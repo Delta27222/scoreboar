@@ -1,6 +1,6 @@
 
 import { useState} from "react"; 
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import { SaveOutlined  } from '@ant-design/icons';
 import { Button, Space } from 'antd';
 
@@ -11,7 +11,7 @@ const ButtonSavePlayes = ({}) => {
     const {          
       doResetGame,     
       UpdateScoreboard,
-       } = useTasks(); 
+       } = UseTasks(); 
 
        
         

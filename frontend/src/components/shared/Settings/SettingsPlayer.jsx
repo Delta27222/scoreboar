@@ -1,10 +1,10 @@
 import React from "react";
-import { useTasks } from "../../../../utils/ProviderContext";
+import { UseTasks } from "../../../../utils/ProviderContext";
 import { Input } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 
 export function SettingsPlayer({ NamePlayer, placeholde, value }) {
-  const {} = useTasks();
+  const {} = UseTasks();
 
   const handleChange = (e) => {
     NamePlayer(e.target.value);

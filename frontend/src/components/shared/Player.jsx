@@ -1,5 +1,5 @@
 import { Flex } from 'antd';
-import { useTasks } from '../../../utils/ProviderContext';
+import { UseTasks } from '../../../utils/ProviderContext';
 
 const Player = ({PlayerA, PlayerB}) => {   
          
@@ -7,7 +7,7 @@ const Player = ({PlayerA, PlayerB}) => {
    ChangeEnd,
    
 
-  } = useTasks();
+  } = UseTasks();
 
 
   const Player = ChangeEnd ? `${PlayerA}-${PlayerB}` : `${PlayerB}-${PlayerA}`

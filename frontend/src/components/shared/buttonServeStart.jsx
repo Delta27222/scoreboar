@@ -1,14 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import { DribbbleOutlined } from "@ant-design/icons";
 import { Button, Space, Tooltip } from "antd";
 
-const buttonServeStart = ({tooltip}) => {
+const ButtonServeStart = ({tooltip}) => {
   const { doResetGame, setServeStart, ServeStart, UpdateScoreboard } =
-    useTasks();
+    UseTasks();
 
-  const [loadings, setLoadings] = useState([]);
+  const [loadings, setLoadings] = UseState([]);
   const enterLoading = (index) => {
     setLoadings((prevLoadings) => {
       const newLoadings = [...prevLoadings];
@@ -44,4 +44,4 @@ const buttonServeStart = ({tooltip}) => {
   );
 };
 
-export default buttonServeStart;
+export default ButtonServeStart;

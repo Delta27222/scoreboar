@@ -4,7 +4,7 @@ import Link from 'next/link'
 import {useEffect, useState} from "react"; 
 import { CaretDownOutlined,  } from '@ant-design/icons';
 import { Button, Space, ConfigProvider} from 'antd';
-import { useTasks } from '../../../utils/ProviderContext';
+import { UseTasks } from '../../../utils/ProviderContext';
 
 
 
@@ -24,7 +24,7 @@ const NextPageB = ({ Score, Navigation}) => {
     UpdateScoreboard,
     
   
-  } = useTasks();
+  } = UseTasks();
          
  
   const [RefNavigation, setRefNavigation] = useState([]);

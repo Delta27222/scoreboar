@@ -1,12 +1,12 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import { useState } from "react";
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import { AppstoreOutlined } from "@ant-design/icons";
 import { Button, Tooltip } from "antd";
 
 const buttonDrawerOp = ({ showDrawer, tooltip }) => {
-  const { doChangeEnd } = useTasks();
+  const { doChangeEnd } = UseTasks();
   const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {
     setLoadings((prevLoadings) => {

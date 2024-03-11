@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import {
   ClockCircleOutlined,
   RightCircleOutlined,
@@ -14,7 +14,7 @@ import {
 } from "antd";
 
 const ButtonTimeGame = () => {
-  const { doResetGame, UpdateScoreboard } = useTasks();
+  const { doResetGame, UpdateScoreboard } = UseTasks();
 
   return (
     <ConfigProvider

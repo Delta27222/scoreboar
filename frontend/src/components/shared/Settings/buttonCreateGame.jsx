@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import { useTasks } from '../../../../utils/ProviderContext'
+import { UseTasks } from '../../../../utils/ProviderContext'
 import { DribbbleOutlined  } from '@ant-design/icons';
 import { Button, Space, Card } from 'antd';
 
@@ -14,7 +14,7 @@ const ButtonCreateGame = ({}) => {
     setOpen,
     setRefrescaCreateId,
     RefrescaCreateId,
-  } = useTasks();
+  } = UseTasks();
 
   const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {

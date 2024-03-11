@@ -2,7 +2,7 @@
 import {useEffect, useState } from "react"; 
 import {Space ,Flex, Badge, Tag } from 'antd';
 import { DribbbleOutlined } from '@ant-design/icons';
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import Player from "../shared/Player";
 import TiebreakA from "../shared/TiebreakA";
 import NextPageA from "../shared/NexPageA";
@@ -36,7 +36,7 @@ export function HeroScoreboard() {
     RefrescaCreateId,
     ScoreID,
     setScoreID,
-  } = useTasks();
+  } = UseTasks();
 
   const [Cancha, setCancha] = useState(0);
   const [Controller, setController] = useState(0);

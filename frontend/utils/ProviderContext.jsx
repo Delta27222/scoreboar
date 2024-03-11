@@ -3,7 +3,7 @@ import { useState, createContext, useContext } from "react";
 import { fetchAPI } from "./api";
 
 export const UserContext = createContext({ isAuthenticated: false });
-export const useTasks = () => useContext(UserContext);
+export const UseTasks = () => useContext(UserContext);
 
 
 
@@ -848,66 +848,66 @@ const UserProvider = ({ children }) => {
     setOpen(false);
   };
 
-  const [timerSeconds, setTimerSeconds] = useState(0);
+  const [timerSeconds, setTimerSeconds] = UseState(0);
 
-  const [PlayerA, setPlayerA] = useState('');
-  const [PlayerB, setPlayerB] = useState('');
-  const [PlayerC, setPlayerC] = useState('');
-  const [PlayerD, setPlayerD] = useState('');
+  const [PlayerA, setPlayerA] = UseState('');
+  const [PlayerB, setPlayerB] = UseState('');
+  const [PlayerC, setPlayerC] = UseState('');
+  const [PlayerD, setPlayerD] = UseState('');
 
-  const [ResultsPlayerA1, setResultsPlayerA1] = useState(0);
-  const [ResultsPlayerB1, setResultsPlayerB1] = useState(0);
-  const [ResultsPlayerA2, setResultsPlayerA2] = useState(0);
-  const [ResultsPlayerB2, setResultsPlayerB2] = useState(0);
-  const [ResultsPlayerA3, setResultsPlayerA3] = useState(0);
-  const [ResultsPlayerB3, setResultsPlayerB3] = useState(0);
+  const [ResultsPlayerA1, setResultsPlayerA1] = UseState(0);
+  const [ResultsPlayerB1, setResultsPlayerB1] = UseState(0);
+  const [ResultsPlayerA2, setResultsPlayerA2] = UseState(0);
+  const [ResultsPlayerB2, setResultsPlayerB2] = UseState(0);
+  const [ResultsPlayerA3, setResultsPlayerA3] = UseState(0);
+  const [ResultsPlayerB3, setResultsPlayerB3] = UseState(0);
 
 
-  const [ChangeEnd, setChangeEnd] = useState(false);
-  const [ServeStart, setServeStart] = useState(false);
+  const [ChangeEnd, setChangeEnd] = UseState(false);
+  const [ServeStart, setServeStart] = UseState(false);
 
   /**Puntaje*****************/
-  const [ScoreID, setScoreID] = useState(0);
-  const [ScoreA, setScoreA] = useState(0);
-  const [ScoreB, setScoreB] = useState(0);
-  const [ScoreSuma, setScoreSuma] = useState();
+  const [ScoreID, setScoreID] = UseState(0);
+  const [ScoreA, setScoreA] = UseState(0);
+  const [ScoreB, setScoreB] = UseState(0);
+  const [ScoreSuma, setScoreSuma] = UseState();
 
-  const [GameA, setGameA] = useState(0);
-  const [GameB, setGameB] = useState(0);
-  const [GameSuma, setGameSuma] = useState();
-  const [SetsGame, setSetsGame] = useState([]);
+  const [GameA, setGameA] = UseState(0);
+  const [GameB, setGameB] = UseState(0);
+  const [GameSuma, setGameSuma] = UseState();
+  const [SetsGame, setSetsGame] = UseState([]);
 
-  const [loadingsA, setLoadingsA] = useState('/');
-  const [loadingsB, setLoadingsB] = useState('/');
+  const [loadingsA, setLoadingsA] = UseState('/');
+  const [loadingsB, setLoadingsB] = UseState('/');
 
-  const [ScoreAGameA, setScoreAGameA] = useState([]);
-  const [ScoreBGameB, setScoreBGameB] = useState([]);
+  const [ScoreAGameA, setScoreAGameA] = UseState([]);
+  const [ScoreBGameB, setScoreBGameB] = UseState([]);
 
-  const [ScoreGameSets, setScoreGameSets] = useState(false);
+  const [ScoreGameSets, setScoreGameSets] = UseState(false);
 
-  const [TieScoreGameSets, setTieScoreGameSets] = useState(false);
+  const [TieScoreGameSets, setTieScoreGameSets] = UseState(false);
 
-  const [RestaGameSetsA, setRestaGameSetsA] = useState(false);
-  const [RestaGameSetsB, setRestaGameSetsB] = useState(false);
+  const [RestaGameSetsA, setRestaGameSetsA] = UseState(false);
+  const [RestaGameSetsB, setRestaGameSetsB] = UseState(false);
 
   /**localStorage*****************/
-  const [username, setUsername] = useState(null);
-  const [userId, setUserId] = useState(null);
-  const [userData, setUserData] = useState(null);
-  const [keys, setKeys] = useState([]);
-  const [length, setLength] = useState(0);
+  const [username, setUsername] = UseState(null);
+  const [userId, setUserId] = UseState(null);
+  const [userData, setUserData] = UseState(null);
+  const [keys, setKeys] = UseState([]);
+  const [length, setLength] = UseState(0);
 
-  const [open, setOpen] = useState(false);
-  const [RefrescaCreateId, setRefrescaCreateId] = useState(false);
+  const [open, setOpen] = UseState(false);
+  const [RefrescaCreateId, setRefrescaCreateId] = UseState(false);
 
   /**TimerGame*****************/
-  const [isActive, setIsActive] = useState(false);
-  const [isPaused, setIsPaused] = useState(true);
-  const [time, setTime] = useState(0);
+  const [isActive, setIsActive] = UseState(false);
+  const [isPaused, setIsPaused] = UseState(true);
+  const [time, setTime] = UseState(0);
 
 
-  const [Controller, setController] = useState(); 
-  const [Cancha, setCancha] = useState(); 
+  const [Controller, setController] = UseState(); 
+  const [Cancha, setCancha] = UseState(); 
 
   const useract = {
     setController:setController,

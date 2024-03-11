@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import { ReloadOutlined } from "@ant-design/icons";
 import { Button, Tooltip } from "antd";
 
 const ButtonRecharge = ({ tooltip }) => {
-  const { doResetGame, ScoreGameSets } = useTasks();
+  const { doResetGame, ScoreGameSets } = UseTasks();
 
   const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {

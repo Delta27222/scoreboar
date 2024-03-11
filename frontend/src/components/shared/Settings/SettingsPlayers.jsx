@@ -1,6 +1,6 @@
 
 import {useEffect, useState } from "react";
-import { useTasks } from '../../../../utils/ProviderContext'
+import { UseTasks } from '../../../../utils/ProviderContext'
 import { Space, Card, Row, Col } from 'antd';
 
 import { SettingsPlayer } from '../../shared/Settings/SettingsPlayer'
@@ -16,7 +16,7 @@ export  function SettingsPlayers({ }) {
     setPlayerB,
     setPlayerC,
     setPlayerD,
-  } = useTasks();
+  } = UseTasks();
 
     const [ScoreID, setScoreID] = useState();
 

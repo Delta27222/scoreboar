@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { useTasks } from "../../../../utils/ProviderContext";
+import { UseTasks } from "../../../../utils/ProviderContext";
 import { DeleteOutlined } from "@ant-design/icons";
 import { Button, Space } from "antd";
 
 export const ButtonRecharge = ({}) => {
   const { doResetGame, ScoreGameSets, doClearlocalStorage, UpdateScoreboard } =
-    useTasks();
+    UseTasks();
 
   const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {

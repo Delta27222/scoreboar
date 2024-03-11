@@ -1,6 +1,6 @@
 
 import {useEffect, useRef, useState } from "react"; 
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import {ConfigProvider,Tag } from 'antd';
 import {ArrowUpOutlined, ArrowDownOutlined, UpOutlined  } from '@ant-design/icons';
 import Timer from "./Timer";
@@ -15,7 +15,7 @@ export  function TimerGame({TSeconds, TimerSeconds}) {
         setIsActive,
         setIsPaused,
         setTime
-    } = useTasks();
+    } = UseTasks();
 
     useEffect(() => {
       let interval = null;

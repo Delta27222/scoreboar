@@ -1,6 +1,6 @@
 
 import {useEffect, useState } from "react"; 
-import { useTasks } from "../../../../utils/ProviderContext";
+import { UseTasks } from "../../../../utils/ProviderContext";
 import { Button, Checkbox, Form, Input, Select, Space, Radio, Card, Row, Col, Divider  } from 'antd';
 import { MinusCircleOutlined, PlusOutlined, PlusCircleTwoTone } from '@ant-design/icons';
 
@@ -21,7 +21,7 @@ export  function SettingsDrawer({ }) {
         setPlayerB,
         setPlayerC,
         setPlayerD,
-         } = useTasks();
+         } = UseTasks();
          
        
 

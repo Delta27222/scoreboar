@@ -1,6 +1,6 @@
 
 import {useEffect, useRef, useState } from "react"; 
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import {ConfigProvider, Table, Tag ,Layout, Carousel , List, Statistic, Button, Drawer, Flex, Radio, Card, Space, Row, Col, Divider, Typography  } from 'antd';
 import {ArrowUpOutlined, ArrowDownOutlined, UpOutlined  } from '@ant-design/icons';
 
@@ -9,7 +9,7 @@ export  function TimerScore({TSeconds, TimerSeconds}) {
 	const {
 			setTimerSeconds,
 			timerSeconds,
-	} = useTasks();
+	} = UseTasks();
 
 	const Ref = useRef(null);
 

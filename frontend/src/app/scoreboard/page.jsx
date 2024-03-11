@@ -8,7 +8,7 @@ import { SponsorSection } from "../../components/scoreboard/SponsorSection";
 import { MarcadorSection } from "../../components/scoreboard/MarcadorSection";
 import { TimeSection } from "../../components/scoreboard/TimeSection";
 import { Menu } from "../../components/scoreboard/Menu";
-import { useTasks } from '../../../utils/ProviderContext';
+import { UseTasks } from '../../../utils/ProviderContext';
 
 const ScoreBoard = () => {
   const {
@@ -54,7 +54,7 @@ const ScoreBoard = () => {
     setIsActive,
     setIsPaused,
     setTime
-  } = useTasks();
+  } = UseTasks();
 
   const [ScoreA, setScoreA] = useState(0);
   const [ScoreB, setScoreB] = useState(0);

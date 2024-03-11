@@ -2,7 +2,7 @@
 import {useEffect, useState} from "react"; 
 import { CaretDownOutlined, CaretRightFilled } from '@ant-design/icons';
 import { Button, Space, ConfigProvider, Card, Row, Col} from 'antd';
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 
 
 
@@ -20,7 +20,7 @@ const TiebreakB = ({ Score, Navigation}) => {
     setLoadingsB,
     setLoadingsA,
     UpdateScoreboard
-  } = useTasks();
+  } = UseTasks();
          
  
   const [RefNavigation, setRefNavigation] = useState([]);

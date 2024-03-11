@@ -1,5 +1,5 @@
 import  React, { useState } from "react"; 
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 import { Form, Select, Radio } from 'antd';
 
 
@@ -32,7 +32,7 @@ export function FormItemStatus() {
       setCancha,
       Cancha,
       UpdateScoreboard
-  } = useTasks();
+  } = UseTasks();
 
   const handleChange = (value) => {
     if (typeof window !== "undefined" && window.localStorage){

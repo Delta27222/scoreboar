@@ -2,7 +2,7 @@
 import {useEffect } from "react";
 import { Button, Space, Row, Col } from 'antd';
 import { MinusOutlined } from '@ant-design/icons'
-import { useTasks } from "../../../utils/ProviderContext";
+import { UseTasks } from "../../../utils/ProviderContext";
 
 
 
@@ -22,7 +22,7 @@ const SetsScore = ({PlayerA, PlayerB}) => {
     setRestaGameSetsB,
     RestaGameSetsB,
     UpdateScoreboard
-  } = useTasks();
+  } = UseTasks();
 
   useEffect(() => {
     doSetsScorehandleSaveA();
