@@ -5,7 +5,7 @@ import {Drawer, Flex, Space, Row, Col, Divider } from 'antd';
 
 import ButtonDrawerOp from '../shared/buttonDrawerOp'
 import ButtonRecharge from "../shared/buttonRecharge";
-import ButtonServeStart from "../shared/ButtonServeStart";
+import ButtonServeStart from "../shared/buttonServeStart";
 import ButtonTime from "../shared/buttonTime";
 import ButtonTimeGame from "../shared/ButtonTimeGame";
 
